@@ -3,7 +3,6 @@
 <head>
 	<title>Find Your Supervisor | San Francisco</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,800' rel='stylesheet' type='text/css' />
  	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
  	<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
@@ -17,14 +16,14 @@
  </head>
  <body>
 	<div id="container">
-		<h1>SF Supervisor Districts</h1>
+		<h1>SF Board of Supervisors Districts</h1>
 		<div id="map" style="width: 800px; height: 600px"></div>
 		<div id="form">
-			<p>Enter your address below, or click 'find my location' to locate your supervisor.</p>
+			<p>Enter your address below, or click 'Find My Location' and we'll try to locate your supervisor.</p>
 			<p><input id="q" name="q" placeholder="Address (e.g. 101 Hyde St, San Francisco, CA)" type="text">
 			<input id="mySearch" type="button" value="Search"> <input id="myLoc" type="button" value="Find My Location"></p>
-
 			<p><small>Nominatim Search Courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a> <img src="http://developer.mapquest.com/content/osm/mq_logo.png"></small></p>
+			<p><small><a href="https://github.com/danasf/sfbos/">Fork on Github</a></small></p>
 		</div>
 
 		<div id="myDist"></div>
