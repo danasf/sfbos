@@ -1,0 +1,101 @@
+[
+  {
+    "district":1,
+    "neighborhoods":"Richmond",
+    "first":"Eric",
+    "last":"Mar",
+    "email":"Eric.L.Mar@sfgov.org ",
+    "phone":"(415) 554-7410",
+    "twitter":"ericmar415"
+  },
+  {
+    "district":2,
+    "neighborhoods":"Marina / Pac Heights",
+    "first":"Mark",
+    "last":"Farrell",
+    "email":"Mark.Farrell@sfgov.org ",
+    "phone":" (415) 554-7752",
+    "twitter":"MarkFarrellSF‎"
+  },
+  {
+    "district":3,
+    "neighborhoods":"North Beach / Chinatown / Russian Hill",
+    "first":"David",
+    "last":"Chiu",
+    "email":"David.Chiu@sfgov.org ",
+    "phone":"(415) 554-7450",
+    "twitter":"DavidChiu"
+  },
+  {
+    "district":4,
+    "neighborhoods":"Sunset",
+    "first":"Katy",
+    "last":"Tang",
+    "email":"Katy.Tang@sfgov.org",
+    "phone":"(415) 554-7460",
+    "twitter":"SupervisorTang"
+  },
+  {
+    "district":5,
+    "neighborhoods":"Haight / Western Addition",
+    "first":"London",
+    "last":"Breed",
+    "email":"London.Breed@sfgov.org",
+    "phone":"(415) 554-7630",
+    "twitter":""
+  },
+  {
+    "district":6,
+    "neighborhoods":"Tenderloin / SOMA / Hayes Valley / Treasure Island",
+    "first":"Jane",
+    "last":"Kim",
+    "email":"Jane.Kim@sfgov.org ",
+    "phone":"(415) 554-7970",
+    "twitter":"SupeJaneKim"
+  },
+  {
+    "district":7,
+    "neighborhoods":"Parkmerced / Ingleside / SFSU",
+    "first":"Norman",
+    "last":"Yee",
+    "email":"Norman.Yee.Bos@sfgov.org",
+    "phone":"(415) 554-6516",
+    "twitter":"NormanYeeSF"
+  },
+  {
+    "district":8,
+    "neighborhoods":"Castro / Noe Valley",
+    "first":"Scott",
+    "last":"Wiener",
+    "email":"Scott.Wiener@sfgov.org ",
+    "phone":"(415) 554-6968",
+    "twitter":"Scott_Wiener"
+  },
+  {
+    "district":9,
+    "neighborhoods":"Mission / Bernal Heights / Portola",
+    "first":"David",
+    "last":"Campos",
+    "email":"David.Campos@sfgov.org ",
+    "phone":"(415) 554-5144",
+    "twitter":"DavidCamposSF"
+  },
+  {
+    "district":10,
+    "neighborhoods":"Bayview / Potrero / Dogpatch",
+    "first":"Malia",
+    "last":"Cohen",
+    "email":"Malia.Cohen@sfgov.org",
+    "phone":"(415) 554-7670",
+    "twitter":"MaliaCohen"
+  },
+  {
+    "district":11,
+    "neighborhoods":"Excelsior / Crocker Amazon",
+    "first":"John",
+    "last":"Avalos",
+    "email":"John.Avalos@sfgov.org ",
+    "phone":"(415) 554-6975",
+    "twitter":"AvalosSF"
+  }
+]
