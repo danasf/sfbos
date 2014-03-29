@@ -40,7 +40,7 @@
     		maxZoom: 18,
     		attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.'
     	}).addTo(map);
-    	$.getJSON('./support/bos.geojson', function(data) {
+    	$.getJSON('./support/bos2.geojson', function(data) {
     		//console.log(data.features[0].properties.DISTRICT);
     		districts = L.geoJson(data, {
     			onEachFeature: function(feature, layer) {
@@ -91,7 +91,7 @@
     		var results = leafletPip.pointInLayer([lon, lat], districts, true);
     		//$("#myDist").html("You're in district:"+results[0].feature.properties.DISTRICT.trim());
     		$.getJSON('./support/supes.json', function(data) {
-    			var supe = data[results[0].feature.properties.DISTRICT.replace(/^[0]+/g, "") - 1];
+    			var supe = data[results[0].feature.properties.district.replace(/^[0]+/g, "") - 1];
     			popupContent = "<p><strong>District " + supe.district + "</strong><br />" + supe.first + " " + supe.last + "<br />" + supe.email + "<br />" + supe.phone + "<br /><a href='http://twitter.com/" + supe.twitter + "'>@" + supe.twitter + "</a></p>";
     			marker.bindPopup(popupContent).openPopup();
     		});
